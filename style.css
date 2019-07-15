@@ -1,0 +1,59 @@
+html, body {
+	
+	height: 100%;
+	margin: 0;
+
+}
+
+@font-face {
+
+	font-family: "San Francisco";
+	src: url(resources/sanfrancisco.otf);
+
+}
+
+@font-face {
+
+	font-family: "Bungee";
+	src: url(resources/bungee.ttf);
+
+}
+
+* {
+
+	font-family: San Francisco;
+
+}
+
+body {
+
+	background-image: url(img/2.jpg);
+	background-position: center 37.5%;
+	background-size: cover;
+
+}
+
+nav {
+
+	opacity: 1;
+
+}
+
+nav h2 {
+
+	font-family: "Bungee" !important;
+
+}
+
+
+nav li {
+
+	margin: 0 5px;
+
+}
+
+nav li:not(:last-child) {
+
+	border-right: 1px solid gray;
+
+}
