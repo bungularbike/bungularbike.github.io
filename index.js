@@ -6,7 +6,7 @@ $(document).ready(function() {
 });
 
 var counter = 1;
-var data = [["37.5%", "Hong Kong<br>Technology Challenge", "rgb(115, 11, 189)", "View Event >"], ["37.5%"], ["37.5%", "ASIJ Robotics<br>Challenge", "rgb(179, 245, 66)", "View Event >"], ["37.5%", "VEX Team 936A<br>\"Actinium\"", "rgb(31, 68, 255)", "Meet the Team >"] , ["37.5%", "VEX Team 936B<br>\"Boonkgang\"", "rgb(204, 50, 33)", "Meet the Team >"]];
+var data = [["37.5%", "Hong Kong<br>Technology Challenge", "rgb(115, 11, 189)", "View Event >"], ["37.5%"], ["37.5%", "ASIJ Robotics<br>Challenge", "rgb(179, 245, 66)", "View Event >"], ["37.5%", "VEX Team 936A<br>\"Actinium\"", "rgb(31, 68, 255)", "Meet the Team >"] , ["37.5%", "VEX Team 936B<br>\"Berkelium\"", "rgb(204, 50, 33)", "Meet the Team >"]];
 for (var i = 0; i < data.length; i++) {
 
 	if (i == 1) { continue }
