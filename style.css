@@ -227,3 +227,10 @@ td:active {
 	color: rgba(255, 255, 255, 0.7);
 
 }
+
+.d-flex.justify-content-center div {
+
+	flex-basis: 0;
+	flex-grow: 1;
+
+}
