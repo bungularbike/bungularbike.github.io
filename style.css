@@ -88,13 +88,13 @@ nav li:not(:last-child) {
 	opacity: 0;
 	color: white;
 	position: absolute;
-	top: calc(100vh - 33vmin);
-	right: 5vmin;
+	top: calc(100vh - 28vmin);
+	right: 0;
 	background-color: rgb(115, 11, 189);
-	width: 25vw;
-	min-width: 350px;
-	height: 18vh;
-	min-height: 140px;
+	width: 15vw;
+	min-width: 220px;
+	height: 12vh;
+	min-height: 100px;
 	transition: background-color 1s;
 	z-index: 1;
 
@@ -212,6 +212,7 @@ td {
 	border: 5px solid white;
 	font-family: Bungee;
 	cursor: pointer;
+	vertical-align: top;
 
 }
 

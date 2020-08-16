@@ -6,11 +6,11 @@ $(document).ready(function() {
 });
 
 var counter = 1;
-var data = [["37.5%", "Hong Kong<br>Technology Challenge", "rgb(115, 11, 189)", "View Event >"], ["37.5%"], ["37.5%", "ASIJ Robotics<br>Challenge", "rgb(179, 245, 66)", "View Event >"], ["37.5%", "VEX Team 936A<br>\"Actinium\"", "rgb(31, 68, 255)", "Meet the Team >"] , ["37.5%", "VEX Team 936B<br>\"Berkelium\"", "rgb(204, 50, 33)", "Meet the Team >"]];
+var data = [["37.5%", "VEX Hong Kong<br>Championship", "rgb(115, 11, 189)", "View Event >"], ["37.5%"], ["37.5%", "ASIJ Robotics<br>Challenge", "rgb(179, 245, 66)", "View Event >"], ["37.5%", "VEX Team 936A<br>\"Actinium\"", "rgb(31, 68, 255)", "Meet the Team >"] , ["37.5%", "VEX Team 936B<br>\"Berkelium\"", "rgb(204, 50, 33)", "Meet the Team >"]];
 for (var i = 0; i < data.length; i++) {
 
 	if (i == 1) { continue }
-	$(".container-fluid").prepend("<div class = 'banner p-4' id = 'slideshow_" + (i + 1) + "' style = 'background-color: " + data[i][2] + " !important'><h5 class = 'head mb-3'>" + data[i][1] + "</h5><p class = 'mb-0'><button class = 'btn btn-primary btn-sm head' style = 'border-radius: 0'>" + data[i][3] + "</button></p></div>");
+	$(".container-fluid").prepend("<div class = 'banner p-4' id = 'slideshow_" + (i + 1) + "' style = 'background-color: " + data[i][2] + " !important'><h5 class = 'head mb-3'>" + data[i][1] + "</h5></div>");
 	if (i != 0) {
 
 		$("#slideshow_" + (i + 1)).hide();
